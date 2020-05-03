@@ -18,8 +18,8 @@ Go ahead and started to trace you app.
 
 Use the folows endpoits:
 
-http://localhost:8080/reservations
-http://localhost:8080/hello .
+- http://localhost:8080/reservations
+- http://localhost:8080/hello
 
 
 
