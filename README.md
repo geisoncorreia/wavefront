@@ -1,5 +1,5 @@
 # wavefront
-A sample using Spring Cloud Sleuth:
+A sample of Spring Cloud Sleuth:
 
 Spring Boot 2.3.M4, R2DBC, PostgreSQL, Reactive Web, Spring Cloud Sleuth and Lombok.
 
