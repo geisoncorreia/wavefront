@@ -9,6 +9,8 @@ services:
       POSTGRES_USER: order
       POSTGRES_PASSWORD: admin
       POSTGRES_DB: order-service
+    volumes:
+      - ./src/main/resources/schema.d:/docker-entrypoint-schema.d
   #adminer:
   #  image: adminer
     #restart: always

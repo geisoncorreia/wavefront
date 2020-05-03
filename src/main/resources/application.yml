@@ -25,3 +25,4 @@ spring:
     url: r2dbc:postgresql://localhost/order-service
     username: order
     password: admin
+
