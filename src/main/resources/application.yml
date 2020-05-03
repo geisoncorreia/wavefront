@@ -1,0 +1,27 @@
+#spring:
+#pplication:
+#    name: r2dbc-postgresql-example
+
+wavefront:
+  application:
+    name: wavefront
+    service: reservations
+
+server:
+  port: 8080
+
+#logging:
+#  level:
+#    org.springframework: Trace
+
+datasource:
+  #host: localhost
+  #port: 5432
+  #database: order-service
+  #username: order
+  #password: admin
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost/order-service
+    username: order
+    password: admin
